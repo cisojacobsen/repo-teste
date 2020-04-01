@@ -1,10 +1,10 @@
 var minhaImg = document.querySelector('img');
 minhaImg.onclick = function() {
     var minhaSrc = minhaImg.getAttribute('src');
-    if (minhaSrc === '/home/ciso/Projetos/projeto-web/imagens/cup-coffee.svg') {
-        minhaImg.setAttribute('src', '/home/ciso/Projetos/projeto-web/imagens/foto.jpg');
+    if (minhaSrc === '/imagens/cup-coffee.svg') {
+        minhaImg.setAttribute('src', '/imagens/foto.jpg');
     } else {
-        minhaImg.setAttribute('src', '/home/ciso/Projetos/projeto-web/imagens/cup-coffee.svg')
+        minhaImg.setAttribute('src', '/imagens/cup-coffee.svg')
     }
 }
 
